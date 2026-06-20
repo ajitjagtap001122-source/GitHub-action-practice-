@@ -1,5 +1,6 @@
 # Simple Calculator
 # Adding to trigger lint workflow.  
+# Trigger no 2
 num1 = float(input("Enter first number: "))
 op = input("Enter operator (+, -, *, /): ")
 num2 = float(input("Enter second number: "))
