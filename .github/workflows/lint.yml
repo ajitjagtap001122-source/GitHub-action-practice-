@@ -1,2 +1,16 @@
-name: Lint
+# this workflow will review if is there any syntax error
 
+name: Auto Linter
+
+on: 
+ push:
+   paths: "*.py"
+   
+jobs:
+  code:
+   runs-on: ubuntu-slim
+   steps:
+     - name: Checkout/clone the code
+       uses: actions/checkout@v7
+
+       
