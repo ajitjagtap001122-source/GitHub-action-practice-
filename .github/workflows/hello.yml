@@ -1,0 +1,15 @@
+# WORKFLOW 
+name: Ajit
+# time when on workflow will start. 
+on: 
+  workflow_dispatch: 
+#JOBS
+jobs:
+ # say hello is job and runs on ubuntu latest. 
+ say-hello:
+  runs-on: ubuntu-latest
+ # below is steps name of step and run - whatever actions it will do. 
+  steps:
+    - name: say hello to all
+      run: echo " Hello all"
+    
